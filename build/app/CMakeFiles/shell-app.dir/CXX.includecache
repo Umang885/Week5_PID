@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/viki/Desktop/Workspace/cpp-boilerplate/app/PID.cpp
+../include/PID.hpp
+/home/viki/Desktop/Workspace/cpp-boilerplate/include/PID.hpp
+iostream
+-
+numeric
+-
+
+/home/viki/Desktop/Workspace/cpp-boilerplate/app/main.cpp
+PID.cpp
+/home/viki/Desktop/Workspace/cpp-boilerplate/app/PID.cpp
+
+/home/viki/Desktop/Workspace/cpp-boilerplate/include/PID.hpp
+vector
+-
+
