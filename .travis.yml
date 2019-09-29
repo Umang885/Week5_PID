@@ -1,11 +1,13 @@
+---
 sudo: false
 language: cpp
 
 script:
-	~ mkdir build
-	~ cd build
-	~ cmake ..
-	~ make
-	~ ./app/shell-app
-	~ ./test/cpp-test
+ - mkdir build
+ - cd build
+ - cmake ..
+ - make
+ - ./app/shell-app
+ - ./test/cpp-test
+ - cppcheck --enable=all --std=c++11 -I include/ --suppress=missingIncludeSystem $( find . -name *.cpp | grep -vE -e "^./build/" -e "^./vendor/" )
 

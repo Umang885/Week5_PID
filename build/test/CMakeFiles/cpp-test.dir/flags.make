@@ -6,5 +6,5 @@ CXX_FLAGS = -Wall -Wextra -Wpedantic -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/viki/Desktop/Workspace/cpp-boilerplate/test/../vendor/googletest/googletest/include -I/home/viki/Desktop/Workspace/cpp-boilerplate/include -I/home/viki/Desktop/Workspace/cpp-boilerplate/vendor/googletest/googletest/include 
+CXX_INCLUDES = -I"/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/test/../vendor/googletest/googletest/include" -I"/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/include" -I"/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/vendor/googletest/googletest/include" 
 

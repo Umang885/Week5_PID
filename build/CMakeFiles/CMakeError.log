@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/viki/Desktop/Workspace/cpp-boilerplate/build/CMakeFiles/CMakeTmp
+Change Dir: /home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_62945/fast"
-/usr/bin/make -f CMakeFiles/cmTC_62945.dir/build.make CMakeFiles/cmTC_62945.dir/build
-make[1]: Entering directory '/home/viki/Desktop/Workspace/cpp-boilerplate/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_62945.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_62945.dir/CheckSymbolExists.c.o   -c /home/viki/Desktop/Workspace/cpp-boilerplate/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_62945
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62945.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_62945.dir/CheckSymbolExists.c.o  -o cmTC_62945 -rdynamic 
-CMakeFiles/cmTC_62945.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_40df5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_40df5.dir/build.make CMakeFiles/cmTC_40df5.dir/build
+make[1]: Entering directory '/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40df5.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_40df5.dir/CheckSymbolExists.c.o   -c "/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_40df5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40df5.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_40df5.dir/CheckSymbolExists.c.o  -o cmTC_40df5 -rdynamic 
+CMakeFiles/cmTC_40df5.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_62945.dir/build.make:97: recipe for target 'cmTC_62945' failed
-make[1]: *** [cmTC_62945] Error 1
-make[1]: Leaving directory '/home/viki/Desktop/Workspace/cpp-boilerplate/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_62945/fast' failed
-make: *** [cmTC_62945/fast] Error 2
+CMakeFiles/cmTC_40df5.dir/build.make:97: recipe for target 'cmTC_40df5' failed
+make[1]: *** [cmTC_40df5] Error 1
+make[1]: Leaving directory '/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_40df5/fast' failed
+make: *** [cmTC_40df5/fast] Error 2
 
-File /home/viki/Desktop/Workspace/cpp-boilerplate/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/viki/Desktop/Workspace/cpp-boilerplate/build/CMakeFiles/CMakeTmp
+Change Dir: /home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_28d69/fast"
-/usr/bin/make -f CMakeFiles/cmTC_28d69.dir/build.make CMakeFiles/cmTC_28d69.dir/build
-make[1]: Entering directory '/home/viki/Desktop/Workspace/cpp-boilerplate/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_28d69.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_28d69.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_28d69
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28d69.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_28d69.dir/CheckFunctionExists.c.o  -o cmTC_28d69 -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_14f62/fast"
+/usr/bin/make -f CMakeFiles/cmTC_14f62.dir/build.make CMakeFiles/cmTC_14f62.dir/build
+make[1]: Entering directory '/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_14f62.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_14f62.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_14f62
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14f62.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_14f62.dir/CheckFunctionExists.c.o  -o cmTC_14f62 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_28d69.dir/build.make:97: recipe for target 'cmTC_28d69' failed
-make[1]: *** [cmTC_28d69] Error 1
-make[1]: Leaving directory '/home/viki/Desktop/Workspace/cpp-boilerplate/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_28d69/fast' failed
-make: *** [cmTC_28d69/fast] Error 2
+CMakeFiles/cmTC_14f62.dir/build.make:97: recipe for target 'cmTC_14f62' failed
+make[1]: *** [cmTC_14f62] Error 1
+make[1]: Leaving directory '/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_14f62/fast' failed
+make: *** [cmTC_14f62/fast] Error 2
 
 

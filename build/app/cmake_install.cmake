@@ -1,4 +1,4 @@
-# Install script for directory: /home/viki/Desktop/Workspace/cpp-boilerplate/app
+# Install script for directory: /home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/app
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

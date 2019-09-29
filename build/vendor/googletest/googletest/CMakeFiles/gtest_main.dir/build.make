@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/viki/Desktop/Workspace/cpp-boilerplate
+CMAKE_SOURCE_DIR = "/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viki/Desktop/Workspace/cpp-boilerplate/build
+CMAKE_BINARY_DIR = "/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/build"
 
 # Include any dependencies generated for this target.
 include vendor/googletest/googletest/CMakeFiles/gtest_main.dir/depend.make
@@ -59,16 +59,16 @@ include vendor/googletest/googletest/CMakeFiles/gtest_main.dir/flags.make
 
 vendor/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: vendor/googletest/googletest/CMakeFiles/gtest_main.dir/flags.make
 vendor/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: ../vendor/googletest/googletest/src/gtest_main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viki/Desktop/Workspace/cpp-boilerplate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object vendor/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
-	cd /home/viki/Desktop/Workspace/cpp-boilerplate/build/vendor/googletest/googletest && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/viki/Desktop/Workspace/cpp-boilerplate/vendor/googletest/googletest/src/gtest_main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object vendor/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+	cd "/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/build/vendor/googletest/googletest" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c "/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/vendor/googletest/googletest/src/gtest_main.cc"
 
 vendor/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest_main.dir/src/gtest_main.cc.i"
-	cd /home/viki/Desktop/Workspace/cpp-boilerplate/build/vendor/googletest/googletest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/viki/Desktop/Workspace/cpp-boilerplate/vendor/googletest/googletest/src/gtest_main.cc > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
+	cd "/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/build/vendor/googletest/googletest" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/vendor/googletest/googletest/src/gtest_main.cc" > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
 
 vendor/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest_main.dir/src/gtest_main.cc.s"
-	cd /home/viki/Desktop/Workspace/cpp-boilerplate/build/vendor/googletest/googletest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/viki/Desktop/Workspace/cpp-boilerplate/vendor/googletest/googletest/src/gtest_main.cc -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
+	cd "/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/build/vendor/googletest/googletest" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/vendor/googletest/googletest/src/gtest_main.cc" -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
 
 vendor/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.requires:
 
@@ -91,9 +91,9 @@ gtest_main_EXTERNAL_OBJECTS =
 vendor/googletest/googletest/libgtest_main.a: vendor/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
 vendor/googletest/googletest/libgtest_main.a: vendor/googletest/googletest/CMakeFiles/gtest_main.dir/build.make
 vendor/googletest/googletest/libgtest_main.a: vendor/googletest/googletest/CMakeFiles/gtest_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/viki/Desktop/Workspace/cpp-boilerplate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtest_main.a"
-	cd /home/viki/Desktop/Workspace/cpp-boilerplate/build/vendor/googletest/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean_target.cmake
-	cd /home/viki/Desktop/Workspace/cpp-boilerplate/build/vendor/googletest/googletest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest_main.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtest_main.a"
+	cd "/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/build/vendor/googletest/googletest" && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean_target.cmake
+	cd "/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/build/vendor/googletest/googletest" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 vendor/googletest/googletest/CMakeFiles/gtest_main.dir/build: vendor/googletest/googletest/libgtest_main.a
@@ -105,10 +105,10 @@ vendor/googletest/googletest/CMakeFiles/gtest_main.dir/requires: vendor/googlete
 .PHONY : vendor/googletest/googletest/CMakeFiles/gtest_main.dir/requires
 
 vendor/googletest/googletest/CMakeFiles/gtest_main.dir/clean:
-	cd /home/viki/Desktop/Workspace/cpp-boilerplate/build/vendor/googletest/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean.cmake
+	cd "/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/build/vendor/googletest/googletest" && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean.cmake
 .PHONY : vendor/googletest/googletest/CMakeFiles/gtest_main.dir/clean
 
 vendor/googletest/googletest/CMakeFiles/gtest_main.dir/depend:
-	cd /home/viki/Desktop/Workspace/cpp-boilerplate/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viki/Desktop/Workspace/cpp-boilerplate /home/viki/Desktop/Workspace/cpp-boilerplate/vendor/googletest/googletest /home/viki/Desktop/Workspace/cpp-boilerplate/build /home/viki/Desktop/Workspace/cpp-boilerplate/build/vendor/googletest/googletest /home/viki/Desktop/Workspace/cpp-boilerplate/build/vendor/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)" "/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/vendor/googletest/googletest" "/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/build" "/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/build/vendor/googletest/googletest" "/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/build/vendor/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : vendor/googletest/googletest/CMakeFiles/gtest_main.dir/depend
 

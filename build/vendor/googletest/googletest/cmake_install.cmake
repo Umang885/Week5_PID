@@ -1,4 +1,4 @@
-# Install script for directory: /home/viki/Desktop/Workspace/cpp-boilerplate/vendor/googletest/googletest
+# Install script for directory: /home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/vendor/googletest/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,14 +33,14 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/viki/Desktop/Workspace/cpp-boilerplate/build/vendor/googletest/googletest/libgtest.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/build/vendor/googletest/googletest/libgtest.a")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/viki/Desktop/Workspace/cpp-boilerplate/build/vendor/googletest/googletest/libgtest_main.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/build/vendor/googletest/googletest/libgtest_main.a")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/viki/Desktop/Workspace/cpp-boilerplate/vendor/googletest/googletest/include/gtest")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/vendor/googletest/googletest/include/gtest")
 endif()
 

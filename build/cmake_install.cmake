@@ -1,4 +1,4 @@
-# Install script for directory: /home/viki/Desktop/Workspace/cpp-boilerplate
+# Install script for directory: /home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/viki/Desktop/Workspace/cpp-boilerplate/build/app/cmake_install.cmake")
-  include("/home/viki/Desktop/Workspace/cpp-boilerplate/build/test/cmake_install.cmake")
-  include("/home/viki/Desktop/Workspace/cpp-boilerplate/build/vendor/googletest/googletest/cmake_install.cmake")
+  include("/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/build/app/cmake_install.cmake")
+  include("/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/build/test/cmake_install.cmake")
+  include("/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/build/vendor/googletest/googletest/cmake_install.cmake")
 
 endif()
 
@@ -48,5 +48,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/viki/Desktop/Workspace/cpp-boilerplate/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

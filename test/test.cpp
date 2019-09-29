@@ -8,32 +8,44 @@
  * @brief       This file is the cpp file for the PID header file.
  */
 
-#include "../app/PID.cpp"
+#include <vector>
 #include <gtest/gtest.h>
+#include "PID.h"
 
-TEST(PIDTest1, ProperConcatenation){
-    std::vector<double> RandomVector = {1, 2, 3, 4};
-    double NewNumber = 5;
-    std::vector<double> NewVector;
-    
-    PIDController Object;
-    NewVector = Object.AccumulatedErrors(RandomVector, NewNumber);
-    
-    std::vector<double> GroundTruth = {1, 2, 3, 4, 5};
-    EXPECT_EQ(NewVector, GroundTruth);
+/**
+ * @brief test function to test if there is error in the code
+ * @param PIDTest1 which defined the name of test bench
+ * @param properConcatenation is description of the test
+ * @return none
+ */
+TEST(PIDTest1, properConcatenation) {
+    std::vector<double> randomVector = {1,2,3,4};
+    double newNumber = 5;
+
+    PidController object;
+    object.accumulatedErrors(randomVector, newNumber);
+
+    std::vector<double> groundTruth = {1, 2, 3, 4, 5};
+    EXPECT_EQ(randomVector, groundTruth);
 }
 
-TEST(PIDTest2, ComputeMethod){
-    PIDController Object;
-    
-    double PreviousError = 2;
-    double CurrentError = 1;
-    double ControllerOutput;
-    std::vector<double> RandomVector = {1, 2, 3, 4};
-    
-    ControllerOutput = Object.ComputeOutput(PreviousError, CurrentError, RandomVector);
-    
-    double GroundTruth = 1;
-    
-    EXPECT_EQ(ControllerOutput, GroundTruth);
+
+/**
+ * @brief test function to test if there is error in the code
+ * @param PIDTest1 which defined the name of test bench
+ * @param properConcatenation is description of the test
+ * @return none
+ */
+TEST(PIDTest2, computeMethod) {
+    PidController object;
+
+    double previousError = 2;
+    double currentError = 1;
+    double controllerOutput;
+    std::vector<double> randomVector = {2,1};
+
+    controllerOutput = object.computeOutput(previousError, currentError, randomVector);
+    double groundTruth = 14;
+
+    EXPECT_EQ(controllerOutput, groundTruth);
 }

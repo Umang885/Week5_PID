@@ -25,6 +25,7 @@ test/CMakeFiles/cpp-test.dir/main.cpp.o: ../test/../vendor/googletest/googletest
 test/CMakeFiles/cpp-test.dir/main.cpp.o: ../test/../vendor/googletest/googletest/include/gtest/internal/gtest-type-util.h
 test/CMakeFiles/cpp-test.dir/main.cpp.o: ../test/main.cpp
 
+test/CMakeFiles/cpp-test.dir/test.cpp.o: ../include/PID.h
 test/CMakeFiles/cpp-test.dir/test.cpp.o: ../test/../vendor/googletest/googletest/include/gtest/gtest-death-test.h
 test/CMakeFiles/cpp-test.dir/test.cpp.o: ../test/../vendor/googletest/googletest/include/gtest/gtest-message.h
 test/CMakeFiles/cpp-test.dir/test.cpp.o: ../test/../vendor/googletest/googletest/include/gtest/gtest-param-test.h
@@ -47,7 +48,5 @@ test/CMakeFiles/cpp-test.dir/test.cpp.o: ../test/../vendor/googletest/googletest
 test/CMakeFiles/cpp-test.dir/test.cpp.o: ../test/../vendor/googletest/googletest/include/gtest/internal/gtest-string.h
 test/CMakeFiles/cpp-test.dir/test.cpp.o: ../test/../vendor/googletest/googletest/include/gtest/internal/gtest-tuple.h
 test/CMakeFiles/cpp-test.dir/test.cpp.o: ../test/../vendor/googletest/googletest/include/gtest/internal/gtest-type-util.h
-test/CMakeFiles/cpp-test.dir/test.cpp.o: ../app/PID.cpp
-test/CMakeFiles/cpp-test.dir/test.cpp.o: ../include/PID.hpp
 test/CMakeFiles/cpp-test.dir/test.cpp.o: ../test/test.cpp
 
