@@ -1,4 +1,4 @@
-# Install script for directory: /home/jing/Desktop/808x/assignment/week5/Git/Week5_PID (copy)/app
+# Install script for directory: /home/umang/Documents/808x/assignments/Week5_PID/app
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

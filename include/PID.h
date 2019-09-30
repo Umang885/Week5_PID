@@ -86,7 +86,6 @@ double PidController::computeOutput (double& previousError, double& currentError
 
 void PidController::accumulatedErrors (std::vector<double>& accumulatedError, double& currentError) {
   accumulatedError.push_back(currentError);
-  // return accumulatedError;
 }
 
 #endif  // PID_H

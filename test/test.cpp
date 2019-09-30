@@ -19,7 +19,7 @@
  * @return none
  */
 TEST(PIDTest1, properConcatenation) {
-    std::vector<double> randomVector = {1,2,3,4};
+    std::vector<double> randomVector = {1, 2, 3, 4};
     double newNumber = 5;
 
     PidController object;
@@ -42,9 +42,10 @@ TEST(PIDTest2, computeMethod) {
     double previousError = 2;
     double currentError = 1;
     double controllerOutput;
-    std::vector<double> randomVector = {2,1};
+    std::vector<double> randomVector = {2, 1};
 
-    controllerOutput = object.computeOutput(previousError, currentError, randomVector);
+    controllerOutput = object.computeOutput(previousError, \
+        currentError, randomVector);
     double groundTruth = 14;
 
     EXPECT_EQ(controllerOutput, groundTruth);
