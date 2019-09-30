@@ -3,9 +3,11 @@ sudo: false
 language: cpp
 
 script:
- - mkdir build
- - cd build
- - cmake ..
- - make
- - ./app/shell-app
- - ./test/cpp-test
+- mkdir build
+- cd build
+- cmake ..
+- make
+- ./app/shell-app
+- ./test/cpp-test
+
+
