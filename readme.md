@@ -1,12 +1,6 @@
 <<<<<<< HEAD
-# C++ Boilerplate
-[![Build Status](https://travis-ci.org/lydiazoghbi/Week5_PID.svg?branch=master)](https://travis-ci.org/lydiazoghbi/Week5_PID)
-[![Coverage Status](https://coveralls.io/repos/github/dpiet/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/lydiazoghbi/Week5_PID?branch=master)
-=======
-# C++ week5_PID
-[![Build Status](https://travis-ci.org/lydiazoghbi/week5_PID.svg?branch=master)](https://travis-ci.org/lydiazoghbi/week5_PID)
-[![Coverage Status](https://coveralls.io/repos/github/lydiazoghbi/week5_PID/badge.svg?branch=master)](https://coveralls.io/github/lydiazoghbi/week5_PID?branch=master)
->>>>>>> 6b18e5b1f2f8cb2a85220d268b7e3528924a9d86
+# C++ Week 5 PID Controller
+[![Coverage Status](https://coveralls.io/repos/github/lydiazoghbi/Week5_PID/badge.svg?branch=master)](https://coveralls.io/github/lydiazoghbi/Week5_PID?branch=master)
 ---
 ## Roles for Part 1
 - Driver: Lydia Al-Zogbi
