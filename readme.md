@@ -1,5 +1,5 @@
-<<<<<<< HEAD
 # C++ Week 5 PID Controller
+[![Build Status](https://travis-ci.org/lydiazoghbi/Week5_PID.svg?branch=master)](https://travis-ci.org/lydiazoghbi/Week5_PID)
 [![Coverage Status](https://coveralls.io/repos/github/lydiazoghbi/Week5_PID/badge.svg?branch=master)](https://coveralls.io/github/lydiazoghbi/Week5_PID?branch=master)
 ---
 ## Roles for Part 1
