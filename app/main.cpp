@@ -8,8 +8,8 @@
  * @brief       This is the main file to be used for instantiating the PID controller
  */
 
-#include "PID.cpp"
+#include "PID.h"
 
-int main(){
+int main() {
     return 0;
 }
