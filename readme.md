@@ -1,6 +1,6 @@
 # C++ week5_PID
 [![Build Status](https://travis-ci.org/lydiazoghbi/week5_PID.svg?branch=master)](https://travis-ci.org/lydiazoghbi/week5_PID)
-[![Coverage Status](https://coveralls.io/repos/github/lydiazoghbi/week5_PID/badge.svg?branch=master)](https://coveralls.io/github/lydiazoghbi/week5_PID?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/Umang885/Week5_PID/badge.svg?branch=master)](https://coveralls.io/github/Umang885/Week5_PID?branch=master)
 ---
 ## Roles for Part 1
 - Driver: Lydia Al-Zogbi
